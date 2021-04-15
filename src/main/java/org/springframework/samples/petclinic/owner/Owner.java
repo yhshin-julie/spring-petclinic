@@ -64,6 +64,16 @@ public class Owner extends Person {
 	
 	private int age;
 	
+	private String email;
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
 	public int getAge() {
 		return age;
 	}
